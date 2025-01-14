@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+	font-family: 'Roboto';
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	margin: 0px;
+	padding: 0px;
+}
+
+header,
+#top,
+footer {
+	background-color: #1f2937;;
+	margin: 0px;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding-left: 16px;
+	padding-right: 16px;
+	margin: 0px;
+}
+
+header h1 {
+	font-size: 24px;
+	color: #F9FAF8
+}
+
+nav ul {
+	display: flex;
+	align-items: center;
+	list-style: none;
+	justify-content: space-around;
+	gap: 16px;
+}
+
+nav ul li a {
+	font-size: 18px;
+	color: #E5E7EB;
+	text-decoration: none;
+}
+
+main {
+	margin: 0px;
+	flex: 1,
+}
+
+#top {
+	margin: 0px;
+	padding: 80px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 50px;
+	color: #F9FAF8;
+}
+
+#top .left {
+	max-width: 480px;
+}
+
+#top h2 {
+	color: #F9FAF8;
+	font-size: 48px;
+	font-weight: 900;
+	margin: 0px;
+}
+
+#top .right img {
+	max-width: 480px;
+	max-height: 300px;
+}
+
+.information h2 {
+	text-align: center;
+	font-size: 36px;
+	color: #1F2937;
+	font-weight: 900;
+}
+
+.info-card-container {
+	display: flex; 
+	justify-content: center; 
+	align-items: center;
+	gap: 50px;
+}
+
+.quote {
+	background-color: #E5E7EB;
+	padding: 90px;
+}
+
+#quote-text {
+	font-size: 36px;
+	font-style: italic;
+	font-weight: lighter;
+	color: #1F2937;
+}
+
+#quote-author {
+	font-weight: bold;
+	text-align: end;
+}
+
+.banner {
+	background-color: #3882F6;
+	color: #E5E7EB;
+	margin: 90px;
+	padding: 30px 60px;
+	display: flex;
+	justify-content: space-around;
+	border-radius: 5px;
+	align-items: center;
+}
+
+.banner p {
+	margin: 5px;
+}
+
+button {
+	background-color: #3882F6;
+	border-radius: 5px;
+	color: #E5E7EB;
+	padding-left: 20px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+  	border: none;
+}
+
+.banner button  {
+	border-color: #E5E7EB;
+	border-style: solid;
+	border-width: 2px;
+	font-weight: bold;
+}
+
+.banner-bolded {
+	font-weight: 900;
+}
+
+footer {
+	text-align: center;
+	color: #F9FAF8;
+}
+
+.info-card {
+	text-align: center;
+    /* padding: 20px; */
+	width: 150px;
+}
+
+.info-box {
+    border: 2px solid #3882f6; /* Optional: adds a border for visibility */
+    border-radius: 10px; /* Sets the border corners to be rounded with a radius of 10 pixels */
+	width: 150px;
+	height: 150px;
+}
